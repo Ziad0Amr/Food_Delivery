@@ -1,0 +1,19 @@
+.display {
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 0.8rem;
+    border-radius: 100%;
+    border: none;
+    background-color: tomato;
+    cursor: pointer;
+    line-height: 10px;
+}
+.none {
+display: none;
+}
+
+.arrow{
+    font-size: 15px;
+}
