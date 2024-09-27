@@ -17,6 +17,7 @@ function App() {
       }
       <div className="App">
         <Navbar setshowlogin={setshowlogin}/>
+        <Home/>
         <Routes>
           <Route path='/' Component={Home}/>
           <Route path='/cart' Component={Cart} />
