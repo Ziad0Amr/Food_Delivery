@@ -18,9 +18,9 @@ function App() {
       <div className="App">
         <Navbar setshowlogin={setshowlogin}/>
         <Routes>
-          <Route path='/' Component={Home}/>
-          <Route path='/cart' Component={Cart} />
-          <Route path='/order' Component={PlaceOrder}/>
+          <Route path='/Food_Delivery' Component={Home}/>
+          <Route path='/Food_Delivery/cart' Component={Cart} />
+          <Route path='/Food_Delivery/cart/order' Component={PlaceOrder}/>
         </Routes>
       </div>
       <Footer/>
